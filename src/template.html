@@ -1,0 +1,603 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- mine -->
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <!--stylesheets / link tags loaded here-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/sections/prog.css">
+    <style>
+
+.rowm { margin-bottom:20px; }
+      .progress{
+        
+        margin-top: 5px;
+        right: 0;
+    background: rgba(255,255,255,0.1);
+justify-content: flex-start;
+border-radius: 200px;
+align-items: center;
+position: relative;
+display: flex;
+height: 60px;
+width: 140px;
+font-size: medium;
+  }
+
+  .progress-value1 {
+animation: load1 3s normal forwards;
+box-shadow: 0 10px 40px -10px rgb(109, 92, 92);
+border-radius: 200px;
+background: rgb(26, 24, 24);
+height: 40px;
+width: 0;
+}
+.swipe{
+    overflow:auto;
+    white-space:nowrap;
+}
+
+@keyframes load1 {
+0% { width: 0; }
+100% { width: 80%; }
+} 
+.progress-value2 {
+animation: load2 3s normal forwards;
+box-shadow: 0 10px 40px -10px rgb(109, 92, 92);
+border-radius: 200px;
+background: rgb(26, 24, 24);
+height: 40px;
+width: 0;
+}
+@keyframes load2 {
+0% { width: 0; }
+100% { width: 60%; }
+} 
+.progress-value3 {
+animation: load3 3s normal forwards;
+box-shadow: 0 10px 40px -10px rgb(109, 92, 92);
+border-radius: 200px;
+background: rgb(26, 24, 24);
+height: 40px;
+width: 0;
+}
+@keyframes load3 {
+0% { width: 0; }
+100% { width: 70%; }
+} 
+.progress-value4 {
+animation: load4 3s normal forwards;
+box-shadow: 0 10px 40px -10px rgb(109, 92, 92);
+border-radius: 200px;
+background: rgb(26, 24, 24);
+height: 40px;
+width: 0;
+}
+@keyframes load4 {
+0% { width: 0; }
+100% { width: 75%; }
+} 
+
+.progress-value5 {
+animation: load5 3s normal forwards;
+box-shadow: 0 10px 40px -10px rgb(109, 92, 92);
+border-radius: 200px;
+background: rgb(26, 24, 24);
+height: 40px;
+width: 0;
+}
+@keyframes load5 {
+0% { width: 0; }
+100% { width: 90%; }
+} 
+.progress-value6 {
+animation: load6 3s normal forwards;
+box-shadow: 0 10px 40px -10px rgb(109, 92, 92);
+border-radius: 200px;
+background: rgb(26, 24, 24);
+height: 40px;
+width: 0;
+}
+@keyframes load6 {
+0% { width: 0; }
+100% { width: 95%; }
+} 
+.nv{
+  width:780px;
+  left:15%;
+  right:20%;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+
+    </style>
+
+    <!-- Put here your site title -->
+    <title>Jigyas Arora | Full-Stack Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Jigyas Arora | Software Developer Graphic Designer Full-Stack Developer Python Java Development Database Electronics communication" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark nv">
+      <a class="navbar-brand" href="#top">  <h2 >  &nbsp;&nbsp; &nbsp; &nbsp;  Jigyas Arora  &nbsp; &nbsp; &nbsp;  </h2>
+      </a>
+      
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link " href="#about"><p class="about-wrapper__info-text">About &nbsp; &nbsp;  <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#Skills"><p class="about-wrapper__info-text">Skills &nbsp; &nbsp; <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#experience"><p class="about-wrapper__info-text">Experience &nbsp; &nbsp; <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#projects"><p class="about-wrapper__info-text">Projects &nbsp; &nbsp; <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#contact"><p class="about-wrapper__info-text">Contact &nbsp; &nbsp; <span class="sr-only">(current)</span></a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </nav>
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Jigyas Arora</span>
+          <br />
+          I'm a Software Developer.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#contact">Here's some more about me!</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                I am passionate about competetive coding. Data Structures and Algorithms has always been my major source of inspiration to enter the world of coding and development.
+                I enjoy Front-End development and my expereince in Graphic designing sure helps to produce quality User-interfaces. I'm looking forward to taking up
+                development profesionally.
+              </p>
+              <p class="about-wrapper__info-text">
+              
+              </p>
+              <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="./assets/resume.pdf">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+    
+ <!-- **** Skills Section **** -->
+ <section id="Skills">
+  <div class="container">
+    <div class="project-wrapper">
+      <h2 class="section-title dark-blue-text">Skills</h2>
+      <div class="container-fluid d-flex flex-column " >
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="about-wrapper__info-text">  Python </p>
+            </div>
+            <div class="col-sm-6" >
+              <div class="progress">
+                <div class="progress-value1"></div> &nbsp; 80%
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="about-wrapper__info-text">  Data Structures and Algorithm </p>
+            </div>
+            <div class="col-sm-6" >
+              <div class="progress">
+                <div class="progress-value2"></div> &nbsp; 60%
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="about-wrapper__info-text">  Database Management System </p>
+            </div>
+            <div class="col-sm-6" >
+              <div class="progress">
+                <div class="progress-value3"></div> &nbsp; 70%
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="about-wrapper__info-text">  Front-end Development </p>
+            </div>
+            <div class="col-sm-6" >
+              <div class="progress">
+                <div class="progress-value4"></div> &nbsp; 75%
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="about-wrapper__info-text">  Data Analytics </p>
+            </div>
+            <div class="col-sm-6" >
+              <div class="progress">
+                <div class="progress-value5"></div> &nbsp; 90%
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="about-wrapper__info-text"> Graphic Designing </p>
+            </div>
+            <div class="col-sm-6" >
+              <div class="progress">
+                <div class="progress-value6"></div> &nbsp; 95%
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>  
+        
+      
+    
+
+<!-- 
+mine -->
+<div class="row">&nbsp;</div>
+<div class="row mx-auto my-auto" >
+  <div id="myCarousel" class="carousel slide w-100" data-ride="carousel" >
+      <div class="carousel-inner w-100" role="listbox">
+          <div class="carousel-item active" >
+              <div class="col-lg-4 col-md-6">
+                  <img class="img-fluid" width="90px" height="90px" src="./assets/5847f5bdcef1014c0b5e489c.png">
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <img class="img-fluid" width="90x" height="90px" src="./assets/5848104fcef1014c0b5e4950.png">
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <img class="img-fluid" width="90x" height="90px" src="./assets/5848152fcef1014c0b5e4967.png">
+          </div>
+          </div>
+          <div class="carousel-item ">
+              <div class="col-lg-4 col-md-6">
+                  <img class="img-fluid" width="90x" height="90px" src="./assets/5848104fcef1014c0b5e4950.png">
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <img class="img-fluid" width="90x" height="90px" src="./assets/5848152fcef1014c0b5e4967.png">
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <img class="img-fluid" width="90x" height="90px" src="./assets/586d7ac125738d9f2d793e92.png">
+          </div>
+          </div>
+          <div class="carousel-item">
+              <div class="col-lg-4 col-md-6">
+                  <img class="img-fluid" width="90x" height="90px" src="./assets/5848152fcef1014c0b5e4967.png">
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <img class="img-fluid" width="90x" height="90px" src="./assets/586d7ac125738d9f2d793e92.png">
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <img class="img-fluid" width="90x" height="90px" src="./assets/586d7feb25738d9f2d793e96.png">
+          </div>
+          </div>
+          <div class="carousel-item">
+              <div class="col-lg-4 col-md-6">
+                  <img class="img-fluid" width="90x" height="90px" src="./assets/586d7ac125738d9f2d793e92.png">
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <img class="img-fluid" width="90x" height="90px" src="./assets/586d7feb25738d9f2d793e96.png">
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <img class="img-fluid" width="90x" height="90px" src="./assets/kisspng-java-logo-programming-language-java-plum-5ac7bef24d5452.5438873115230399863168.png">
+          </div>
+          </div>
+          <div class="carousel-item">
+              <div class="col-lg-4 col-md-6">
+                  <img class="img-fluid" width="90x" height="90px" src="./assets/586d7feb25738d9f2d793e96.png">
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <img class="img-fluid" width="90x" height="90px" src="./assets/kisspng-java-logo-programming-language-java-plum-5ac7bef24d5452.5438873115230399863168.png">
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <img class="img-fluid" width="90x" height="90px" src="./assets/5848104fcef1014c0b5e4950.png">
+          </div>
+          </div>
+          <div class="carousel-item">
+              <div class="col-lg-4 col-md-6">
+                  <img class="img-fluid" width="90x" height="90px" src="./assets/kisspng-java-logo-programming-language-java-plum-5ac7bef24d5452.5438873115230399863168.png">
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <img class="img-fluid" width="90x" height="90px" src="./assets/5848104fcef1014c0b5e4950.png">
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <img class="img-fluid" width="90x" height="90px" src="./assets/5848152fcef1014c0b5e4967.png">
+          </div>
+          </div>
+      </div>
+      <!-- <a class="carousel-control-prev bg-dark w-auto" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next bg-dark w-auto" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a> -->
+  </div>
+</div>
+        
+      </div>
+
+      
+      
+    </div>
+</section>
+<!-- /END Skills  Section -->
+
+
+      <!-- **** Experience Section **** -->
+      <section id="expereince">
+        <div class="container">
+          <div class="about-wrapper">
+            <h2 class="section-title dark-blue-text">Experience</h2>
+  
+            <!-- Each .row is a exp -->
+            <div class="row exp-wrapper">
+              <div class="col-lg-6">
+                <div class="project-wrapper__text">
+                  <h2 class="project-wrapper__text-title">BYTE BLANKET SOFTWARE SOLUTIONS</h2>
+                  <h3 class="project-wrapper__text-title">Front-End and UI/UX Intern</h3>
+                    <h5 class="project-wrapper__text-title">June 2020-present</h5>
+                  
+                  <div>
+                    <p class="mb-4" style="margin-top: 50px;">
+                      Worked with JavaScript, Node.js, HTML5 and CSS to create rich and user friendly application interfaces for web as well as 
+                      native applications. Interaction with experts in the field and with the support of an amazing and talented team helped me hone my skill 
+                      and learn more about differnce of perspectives and producing designs would be most efficient.
+
+                    </p>
+                  </div>
+                  <a target="_blank" class="cta-btn cta-btn--resume" href="https://www.byteblanket.com/">
+                    Know more about the company
+                  </a>
+                  
+                </div>
+              </div>
+              
+            
+              <div class="col-lg-6">
+                <div class="project-wrapper__text">
+                  <h2 class="project-wrapper__text-title">BHARAT SANCHAR NIGAM LIMITED</h2>
+                    <h3 class="project-wrapper__text-title">Vocation Trainee
+                      BSNL</h3>
+                      <h5 class="project-wrapper__text-title">March'2021-April'2021</h5>
+
+                  <div>
+                    <p class="mb-4" style="margin-top: 50px;">
+                     This training was a thoroughly enriching experience where the professionls from the industry shared thier knowledge, technology insights
+                     and let us experience what working in a telecommunication industry is actually like. It was an amazing oppurtunity to learn intricracies of networking, wireless communication,
+                     Internet of Things, various forms of mobile technology and the architecture in real life.
+
+                    </p>
+                  </div>
+                  <a target="_blank" class="cta-btn cta-btn--resume" href="https://www.bsnl.co.in/">
+                    Know more about the company
+                  </a>
+                </div>
+              </div>
+              
+            </div>
+            <!-- /END Project -->
+  
+            
+          </div>
+        </div>
+      </section>
+      <!-- /END Experience  Section -->
+  
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">COVID19 ANALYSER AND PREVENTER MODEL</h3>
+                <div>
+                  <p class="mb-4">
+                    A trained model to analyze Covid data and provide
+                    with various solutions to prevent as required.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/impracticalzigy/Covid19analysis">
+                  Source Code
+                </a>
+                
+              </div>
+            </div>
+            
+            <div class="col-lg-6 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">ML BASED CUSTOMER SEGMENTATION</h3>
+                <div>
+                  <p class="mb-4">
+                    A system to divide customers into various categories
+                    via ML trained model to enhance marketing
+                    strategies
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/impracticalzigy/Covid19analysis">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            
+          </div>
+          <!-- /END Project -->
+
+          
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">7055450664</p>
+          <p class="contact-wrapper__text">jigyas1999@gmail.com</p>
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:jigyas1999@email.com"
+            >Mail me!</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          
+          
+          <a href="https://www.linkedin.com/in/jigyas/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/impracticalzigy" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+          <a href="https://www.hackerrank.com/jigyas1999" target="_blank">
+            <img
+                
+                height="38px"
+                width="38px"
+                src="./assets/hc.png"
+                alt="Profile Image"
+                style="background:transparent;"
+              />
+          </a>
+          <a href="https://leetcode.com/impracticalzigy/https://leetcode.com/impracticalzigy/" target="_blank">
+            <img
+                
+                height="30px"
+                width="30px"
+                src="./assets/leetcode.png"
+                alt="Profile Image"
+                style="background:transparent;"
+              />
+          </a>
+        </div>
+
+        <hr />
+       
+
+       
+
+        
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>

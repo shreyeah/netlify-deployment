@@ -67,7 +67,7 @@ width: 0;
 }
 @keyframes load2 {
 0% { width: 0; }
-100% { width: 60%; }
+100% { width: 80%; }
 } 
 .progress-value3 {
 animation: load3 3s normal forwards;
@@ -118,13 +118,32 @@ width: 0;
 0% { width: 0; }
 100% { width: 95%; }
 } 
-.nv{
-  width:780px;
-  left:15%;
-  right:20%;
-  border-radius: 20px;
-  margin-top: 10px;
+.progress-value7 {
+animation: load7 3s normal forwards;
+box-shadow: 0 10px 40px -10px rgb(109, 92, 92);
+border-radius: 200px;
+background: rgb(26, 24, 24);
+height: 40px;
+width: 0;
 }
+@keyframes load7 {
+0% { width: 0; }
+100% { width: 70%; }
+} 
+.progress-value8 {
+animation: load8 3s normal forwards;
+box-shadow: 0 10px 40px -10px rgb(109, 92, 92);
+border-radius: 200px;
+background: rgb(26, 24, 24);
+height: 40px;
+width: 0;
+}
+@keyframes load8 {
+0% { width: 0; }
+100% { width: 60%; }
+} 
+
+
 
 
     </style>
@@ -156,7 +175,7 @@ width: 0;
   <!-- Follow the HTML instructions to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark nv">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
       <a class="navbar-brand" href="#top">  <h2 >  &nbsp;&nbsp; &nbsp; &nbsp;  Jigyas Arora  &nbsp; &nbsp; &nbsp;  </h2>
       </a>
       
@@ -173,7 +192,7 @@ width: 0;
             <a class="nav-link" href="#Skills"><p class="about-wrapper__info-text">Skills &nbsp; &nbsp; <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#experience"><p class="about-wrapper__info-text">Experience &nbsp; &nbsp; <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#expereince"><p class="about-wrapper__info-text">Experience &nbsp; &nbsp; <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#projects"><p class="about-wrapper__info-text">Projects &nbsp; &nbsp; <span class="sr-only">(current)</span></a>
@@ -249,7 +268,7 @@ width: 0;
         <div class="col-md-6">
           <div class="row">
             <div class="col-sm-6">
-              <p class="about-wrapper__info-text">  Python </p>
+              <p class="about-wrapper__info-text" style="text-align: left;">  Python </p>
             </div>
             <div class="col-sm-6" >
               <div class="progress">
@@ -261,11 +280,11 @@ width: 0;
         <div class="col-md-6">
           <div class="row">
             <div class="col-sm-6">
-              <p class="about-wrapper__info-text">  Data Structures and Algorithm </p>
+              <p class="about-wrapper__info-text" style="text-align: left;"> Front-end Development </p>
             </div>
             <div class="col-sm-6" >
               <div class="progress">
-                <div class="progress-value2"></div> &nbsp; 60%
+                <div class="progress-value2"></div> &nbsp; 80%
               </div>
             </div> 
           </div>
@@ -277,7 +296,7 @@ width: 0;
         <div class="col-sm-6">
           <div class="row">
             <div class="col-sm-6">
-              <p class="about-wrapper__info-text">  Database Management System </p>
+              <p class="about-wrapper__info-text" style="text-align: left;">  Database Management System </p>
             </div>
             <div class="col-sm-6" >
               <div class="progress">
@@ -289,7 +308,7 @@ width: 0;
         <div class="col-md-6">
           <div class="row">
             <div class="col-sm-6">
-              <p class="about-wrapper__info-text">  Front-end Development </p>
+              <p class="about-wrapper__info-text" style="text-align: left;">  Data Structures and Algorithm  </p>
             </div>
             <div class="col-sm-6" >
               <div class="progress">
@@ -305,7 +324,7 @@ width: 0;
         <div class="col-md-6">
           <div class="row">
             <div class="col-sm-6">
-              <p class="about-wrapper__info-text">  Data Analytics </p>
+              <p class="about-wrapper__info-text" style="text-align: left;">  Data Analytics </p>
             </div>
             <div class="col-sm-6" >
               <div class="progress">
@@ -317,11 +336,37 @@ width: 0;
         <div class="col-md-6">
           <div class="row">
             <div class="col-sm-6">
-              <p class="about-wrapper__info-text"> Graphic Designing </p>
+              <p class="about-wrapper__info-text" style="text-align: left;"> Graphic Designing </p>
             </div>
             <div class="col-sm-6" >
               <div class="progress">
                 <div class="progress-value6"></div> &nbsp; 95%
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="about-wrapper__info-text" style="text-align: left;">  Java </p>
+            </div>
+            <div class="col-sm-6" >
+              <div class="progress">
+                <div class="progress-value7"></div> &nbsp; 70%
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="about-wrapper__info-text" style="text-align: left;"> Machine Learning </p>
+            </div>
+            <div class="col-sm-6" >
+              <div class="progress">
+                <div class="progress-value7"></div> &nbsp; 60%
               </div>
             </div> 
           </div>
@@ -334,7 +379,7 @@ width: 0;
 
 <!-- 
 mine -->
-<div class="row">&nbsp;</div>
+<!-- <div class="row">&nbsp;</div>
 <div class="row mx-auto my-auto" >
   <div id="myCarousel" class="carousel slide w-100" data-ride="carousel" >
       <div class="carousel-inner w-100" role="listbox">
@@ -379,7 +424,7 @@ mine -->
                 <img class="img-fluid" width="90x" height="90px" src="./assets/586d7feb25738d9f2d793e96.png">
             </div>
             <div class="col-lg-4 col-md-6">
-              <img class="img-fluid" width="90x" height="90px" src="./assets/kisspng-java-logo-programming-language-java-plum-5ac7bef24d5452.5438873115230399863168.png">
+              <img class="img-fluid" width="90x" height="90px" src="./assets/java.png">
           </div>
           </div>
           <div class="carousel-item">
@@ -387,7 +432,7 @@ mine -->
                   <img class="img-fluid" width="90x" height="90px" src="./assets/586d7feb25738d9f2d793e96.png">
               </div>
               <div class="col-lg-4 col-md-6">
-                <img class="img-fluid" width="90x" height="90px" src="./assets/kisspng-java-logo-programming-language-java-plum-5ac7bef24d5452.5438873115230399863168.png">
+                <img class="img-fluid" width="90x" height="90px" src="./assets/java.png">
             </div>
             <div class="col-lg-4 col-md-6">
               <img class="img-fluid" width="90x" height="90px" src="./assets/5848104fcef1014c0b5e4950.png">
@@ -395,7 +440,7 @@ mine -->
           </div>
           <div class="carousel-item">
               <div class="col-lg-4 col-md-6">
-                  <img class="img-fluid" width="90x" height="90px" src="./assets/kisspng-java-logo-programming-language-java-plum-5ac7bef24d5452.5438873115230399863168.png">
+                  <img class="img-fluid" width="90x" height="90px" src="./assets/java.png">
               </div>
               <div class="col-lg-4 col-md-6">
                 <img class="img-fluid" width="90x" height="90px" src="./assets/5848104fcef1014c0b5e4950.png">
@@ -405,7 +450,7 @@ mine -->
           </div>
           </div>
       </div>
-      <!-- <a class="carousel-control-prev bg-dark w-auto" href="#myCarousel" role="button" data-slide="prev">
+      <a class="carousel-control-prev bg-dark w-auto" href="#myCarousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
       </a>
@@ -414,7 +459,7 @@ mine -->
           <span class="sr-only">Next</span>
       </a> -->
   </div>
-</div>
+</div> 
         
       </div>
 
@@ -429,25 +474,25 @@ mine -->
       <section id="expereince">
         <div class="container">
           <div class="about-wrapper">
-            <h2 class="section-title dark-blue-text">Experience</h2>
+            <h2 class="section-title ">Experience</h2>
   
             <!-- Each .row is a exp -->
             <div class="row exp-wrapper">
               <div class="col-lg-6">
-                <div class="project-wrapper__text">
+                <div class="project-wrapper__text" style="text-align: justify;">
                   <h2 class="project-wrapper__text-title">BYTE BLANKET SOFTWARE SOLUTIONS</h2>
                   <h3 class="project-wrapper__text-title">Front-End and UI/UX Intern</h3>
                     <h5 class="project-wrapper__text-title">June 2020-present</h5>
                   
                   <div>
-                    <p class="mb-4" style="margin-top: 50px;">
+                    <p  style="margin-top: 50px; text-align: justify;">
                       Worked with JavaScript, Node.js, HTML5 and CSS to create rich and user friendly application interfaces for web as well as 
                       native applications. Interaction with experts in the field and with the support of an amazing and talented team helped me hone my skill 
                       and learn more about differnce of perspectives and producing designs would be most efficient.
 
                     </p>
                   </div>
-                  <a target="_blank" class="cta-btn cta-btn--resume" href="https://www.byteblanket.com/">
+                  <a target="_blank" class="cta-btn cta-btn--resume" style="margin-top: 28px;" href="https://www.byteblanket.com/">
                     Know more about the company
                   </a>
                   
@@ -456,14 +501,14 @@ mine -->
               
             
               <div class="col-lg-6">
-                <div class="project-wrapper__text">
+                <div class="project-wrapper__text" style="text-align: justify;">
                   <h2 class="project-wrapper__text-title">BHARAT SANCHAR NIGAM LIMITED</h2>
                     <h3 class="project-wrapper__text-title">Vocation Trainee
                       BSNL</h3>
                       <h5 class="project-wrapper__text-title">March'2021-April'2021</h5>
 
                   <div>
-                    <p class="mb-4" style="margin-top: 50px;">
+                    <p class="mb-4" style="margin-top: 50px; text-align:justify ;">
                      This training was a thoroughly enriching experience where the professionls from the industry shared thier knowledge, technology insights
                      and let us experience what working in a telecommunication industry is actually like. It was an amazing oppurtunity to learn intricracies of networking, wireless communication,
                      Internet of Things, various forms of mobile technology and the architecture in real life.
@@ -540,7 +585,7 @@ mine -->
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">7055450664</p>
+          <p class="contact-wrapper__text">+91 7055450664</p>
           <p class="contact-wrapper__text">jigyas1999@gmail.com</p>
           <a
             target="_blank"
@@ -565,7 +610,7 @@ mine -->
           <a href="https://www.linkedin.com/in/jigyas/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a href="https://github.com/impracticalzigy" target="_blank">
+          <a href="https://github.com/jigyas1999" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
           <a href="https://www.hackerrank.com/jigyas1999" target="_blank">
@@ -578,7 +623,7 @@ mine -->
                 style="background:transparent;"
               />
           </a>
-          <a href="https://leetcode.com/impracticalzigy/https://leetcode.com/impracticalzigy/" target="_blank">
+          <a href="https://leetcode.com/impracticalzigy/" target="_blank">
             <img
                 
                 height="30px"
